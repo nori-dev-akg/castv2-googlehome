@@ -29,7 +29,7 @@ Castv2GoogleHome.prototype = {
 
     return new Promise(function (resolve, reject) {
       voice
-        .speaker(voice.SPEAKER.HIKARI)
+        .speaker(speaker)
         .emotion(voice.EMOTION.HAPPINESS)
         .emotion_level(voice.EMOTION_LEVEL.HIGH)
         .volume(150)
