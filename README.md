@@ -6,7 +6,9 @@ VoiceText Web API
 https://cloud.voicetext.jp/webapi
 
 ## required
+```bash
 $ npm install voicetext castv2-client express fs forever
+```
 
 # example
 edit speech.js
@@ -14,6 +16,9 @@ edit speech.js
 - GoogleHome IP
 - VoiceText API key
 
+
+```bash
 $ forever start api.js
 $ node speech.js
+```
 
